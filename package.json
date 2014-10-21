@@ -4,7 +4,7 @@
   "description": "Склонение по числам",
   "main": "plural.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/_mocha"
+    "test": "istanbul cover node_modules/.bin/_mocha test/**/*.test.js --report html"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "chai": "~1.9.2",
-    "mocha": "~1.21.5"
+    "mocha": "~1.21.5",
+    "istanbul": "~0.3.2"
   }
 }

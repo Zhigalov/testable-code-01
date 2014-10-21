@@ -16,6 +16,10 @@ describe('Cat test', function() {
         expect(plural(cats, 21)).to.equal('котик');
     });
 
+    it('should be `2033 котика`', function() {
+        expect(plural(cats, 2033)).to.equal('котика');
+    });
+
     it('should be `100500 котиков`', function() {
         expect(plural(cats, 100500)).to.equal('котиков');
     });
