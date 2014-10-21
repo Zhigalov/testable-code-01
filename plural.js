@@ -1,5 +1,5 @@
 /**
- *
+ * Cклонениt слова по числам
  *
  * @param {Array} words
  * @param {Number} num
