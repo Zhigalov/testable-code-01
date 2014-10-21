@@ -1,0 +1,21 @@
+{
+  "name": "03-Pluralize",
+  "version": "0.0.0",
+  "description": "Склонение по числам",
+  "main": "plural.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slogger/03-Pluralize.git"
+  },
+  "author": "Maxim Syrykh (@slggr)",
+  "bugs": {
+    "url": "https://github.com/slogger/03-Pluralize/issues"
+  },
+  "dependencies": {
+    "chai": "~1.9.2",
+    "mocha": "~1.21.5"
+  }
+}
