@@ -1,5 +1,5 @@
 var nameForNumber = require('../nameForNumber');
-var expect = require('C:/Users/Василий/AppData/Roaming/npm/node_modules/chai').expect;
+var expect = require('chai').expect;
 
 describe('nameForNumber', function () {
     it('should return котик for 1', function () {
