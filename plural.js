@@ -1,3 +1,10 @@
+/**
+ * Generates plural form
+ * @param {Array} words
+ * @param {Number} num
+ *
+ */
+
 var plural = function(words, num) {
 	if (words.length != 3) {
 		throw new Error('Wrong words array');
