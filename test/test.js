@@ -1,4 +1,6 @@
-var assert = require('../node_modules/chai').assert;
+//var assert = require('../node_modules/chai').assert;	// Local Path
+
+var assert = require('chai').assert; // For git
 
 var Cats = require('../main');
 
