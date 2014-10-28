@@ -2,6 +2,7 @@
  * Generates plural form
  * @param {Array} words
  * @param {Number} num
+ * @return {String}
  *
  */
 
