@@ -1,5 +1,5 @@
 {
-  "name": "03-Pluralize",
+  "name": "plural",
   "version": "0.0.0",
   "description": "Склонение по числам",
   "main": "plural.js",
